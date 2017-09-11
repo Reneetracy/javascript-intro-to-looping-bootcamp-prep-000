@@ -16,5 +16,17 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
-  
+  function maybeTrue() {
+    return array;
+  }
+  do {
+    --array
+  } while (maybeTrue())
 }
+
+  
+while (maybeTrue()) array.length  >0
+
+return array
+}
+
